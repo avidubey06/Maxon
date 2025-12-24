@@ -100,9 +100,7 @@ const Navbar = ({ onOpenCalculator }: { onOpenCalculator: () => void }) => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-md py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <div className="bg-yellow-500 text-white p-2 rounded-lg shadow-lg">
-            <Icons.Bolt />
-          </div>
+          <img src="/logo.png" alt="Maxon Electricals" className="h-10 w-auto object-contain" />
           <span className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-slate-900' : 'text-white'}`}>
             Maxon <span className="text-yellow-500">Electricals</span>
           </span>
@@ -370,7 +368,7 @@ const Footer = () => (
   <footer className="bg-slate-950 text-slate-400 py-12 border-t border-slate-900 mb-16 md:mb-0">
     <div className="max-w-7xl mx-auto px-6 text-center">
       <div className="flex items-center justify-center gap-2 mb-6">
-        <div className="bg-yellow-500 text-white p-2 rounded-lg"><Icons.Bolt /></div>
+        <img src="/logo.png" alt="Maxon Electricals" className="h-10 w-auto object-contain" />
         <span className="text-2xl font-bold text-white">Maxon <span className="text-yellow-500">Electricals</span></span>
       </div>
       <p className="mb-6 max-w-md mx-auto">MNRE Approved Solar Vendor in Jabalpur. Vijayanagar, Kachnar City, Adhartal, and all nearby areas.</p>
