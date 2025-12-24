@@ -104,7 +104,7 @@ const Navbar = ({ onOpenCalculator }: { onOpenCalculator: () => void }) => {
             <Icons.Bolt />
           </div>
           <span className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-            Maxon<span className="text-yellow-500">Solar</span>
+            Maxon <span className="text-yellow-500">Electricals</span>
           </span>
         </div>
         
@@ -371,7 +371,7 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto px-6 text-center">
       <div className="flex items-center justify-center gap-2 mb-6">
         <div className="bg-yellow-500 text-white p-2 rounded-lg"><Icons.Bolt /></div>
-        <span className="text-2xl font-bold text-white">Maxon<span className="text-yellow-500">Solar</span></span>
+        <span className="text-2xl font-bold text-white">Maxon <span className="text-yellow-500">Electricals</span></span>
       </div>
       <p className="mb-6 max-w-md mx-auto">MNRE Approved Solar Vendor in Jabalpur. Vijayanagar, Kachnar City, Adhartal, and all nearby areas.</p>
       <div className="text-sm border-t border-slate-900 pt-8">© 2025 Maxon Electricals. All rights reserved.</div>
