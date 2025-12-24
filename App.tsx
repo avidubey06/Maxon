@@ -134,7 +134,7 @@ const Hero = ({ onOpenCalculator }: { onOpenCalculator: () => void }) => (
   <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
     <div className="absolute inset-0 z-0">
       <img 
-        src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2000&q=80" 
+        
         alt="Rooftop Solar Installation in Jabalpur by MAXON ELECTRICALS" 
         className="w-full h-full object-cover"
       />
