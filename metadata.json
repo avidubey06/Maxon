@@ -1,0 +1,7 @@
+{
+  "name": "Maxon Electricals - Solar Solutions Jabalpur",
+  "description": "A professional and modern business website for Maxon Electricals, specializing in government-subsidized rooftop solar installations in Jabalpur, Madhya Pradesh.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
