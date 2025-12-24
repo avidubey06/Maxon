@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Analytics } from '@vercel/analytics/react';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 // --- BUSINESS CONTACT DETAILS ---
 const BUSINESS = {
@@ -435,6 +436,11 @@ const CalculatorModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
 
 const App: React.FC = () => {
   const [isCalculatorOpen, setCalculatorOpen] = useState(false);
+  
+  useEffect(() => {
+    injectSpeedInsights();
+  }, []);
+  
   return (
     <div className="min-h-screen font-sans text-slate-900 bg-white selection:bg-yellow-200 selection:text-yellow-900">
       <GlobalStyles />
