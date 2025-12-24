@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- BUSINESS CONTACT DETAILS ---
 const BUSINESS = {
@@ -450,6 +451,7 @@ const App: React.FC = () => {
       <WhatsAppFloating />
       <StickyMobileButtons />
       <CalculatorModal isOpen={isCalculatorOpen} onClose={() => setCalculatorOpen(false)} />
+      <Analytics />
     </div>
   );
 };
